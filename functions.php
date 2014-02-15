@@ -1,10 +1,7 @@
 ﻿<?php
 // 为主题添加post-format功能
 	add_theme_support( 'post-formats', array( 'status',  'video',  'audio', 'gallery','quote' ) );
-
-
 include("includes/theme_options.php");
-
 // custom menu support WP菜单
 		add_theme_support( 'menus' );
 	if ( function_exists( 'register_nav_menus' ) ) {
@@ -681,6 +678,12 @@ function post_gallery_thumbnail(){
 	}
 	echo $post_img;
 }
+function show_flv($id,$flv_path,$width,$height){
+	echo '<object id="'.$id.'" type="application/x-shockwave-flash" data="'.get_bloginfo('template_url').'/plugins/flvplayer/player_flv.swf" width="'.$width.'" height="'.$height.'">';
+	echo '<param name="movie" value="'.get_bloginfo('template_url').'/plugins/flvplayer/player_flv.swf" />';
+	echo '<param name="FlashVars" value="flv='.$flv_path.'&amp;width='.$width.'&amp;height='.$height.'">';
+	echo '</object>';
+}
 function get_origin_gallery(){
 	global $post,$posts;
 	$output=preg_match_all('/<a.+?href=[\'"]([^\'"]+)[\'"].+?>/i',$post->post_content,$matches);
@@ -691,4 +694,5 @@ function get_thumbnail_gallery(){
 	$output=preg_match_all('/<img.+?src=[\'"]([^\'"]+)[\'"].+?>/i',$post->post_content,$matches);
 	return $matches[1];
 }
+
 ?>

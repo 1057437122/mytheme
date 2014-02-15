@@ -7,7 +7,7 @@
 			
 			<div class="entry">
 				<?php 
-					//$thumbnails=get_thumbnail_gallery();
+					//get all the pictures uploaded
 					$origin_gallery=get_origin_gallery();
 				?>
 					<div class="container">
