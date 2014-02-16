@@ -15,6 +15,7 @@
 .es-carousel{
 	overflow:hidden;
 	background:#000;
+	max-width:846px;
 }
 .es-carousel ul{
 	display:none;
