@@ -52,7 +52,7 @@ a:hover{text-decoration:none;color:#0055aa;}
 #searchform button,#searchform #searchsubmit{margin-left:-4px;text-align:center;width:60px;height:32px;line-height:32px;background:rgba(224,48,36,0.7);color:#fff;cursor:pointer;vertical-align:middle;}
 #search button:hover{background:#05a;color:#fff;}
 #content{width:940px;margin:0 auto;}
-.post-content{float:left;width:640px;overflow:hidden;margin-top:20px;}
+.post-content{float:left;width:640px;overflow:hidden;margin-top:20px;background:rgba(255,255,255,0.6)}
 .post-content  img{max-width:596px;border:1px #ddd solid;padding:2px;}
 .article{float:left;margin-bottom:10px;overflow:hidden;width:600px;padding:10px 20px;}
 .article h2{font-weight:600;line-height:24px;height:24px;}
