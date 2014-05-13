@@ -28,7 +28,7 @@
 										$tmp=pathinfo($pics);
 										$thumbs=$tmp['dirname'].'/'.$tmp['filename'].'-150x150.'.$tmp['extension'];
 									?>
-									<li><a href="#"><img src="<?php echo $thumbs;?>" data-large="<?php echo $pics;?>" alt="" data-description="From off a hill whose concave womb reworded" /></a></li>
+									<li><a href="#"><img src="<?php echo $thumbs;?>" data-large="<?php echo $pics;?>" alt="" data-description="We know that in all things God works for good with those who love him" /></a></li>
 									<?php endforeach;?>
 								</ul>
 							</div>
