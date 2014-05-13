@@ -23,8 +23,12 @@
 							</div>
 							<div class="es-carousel">
 								<ul>
-									<?php foreach($origin_gallery as $thumbs):?>
-									<li><a href="#"><img src="<?php echo $thumbs;?>" data-large="<?php echo $thumbs;?>" alt="" data-description="From off a hill whose concave womb reworded" /></a></li>
+									<?php foreach($origin_gallery as $pics):?>
+									<?php 
+										$tmp=pathinfo($pics);
+										$thumbs=$tmp['dirname'].'/'.$tmp['filename'].'-150x150.'.$tmp['extension'];
+									?>
+									<li><a href="#"><img src="<?php echo $thumbs;?>" data-large="<?php echo $pics;?>" alt="" data-description="From off a hill whose concave womb reworded" /></a></li>
 									<?php endforeach;?>
 								</ul>
 							</div>
