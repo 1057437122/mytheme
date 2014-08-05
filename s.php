@@ -34,6 +34,7 @@
 				<li>本文链接: <a href="<?php the_permalink() ?>" rel="bookmark" title="本文固定链接 <?php the_permalink() ?>"><?php the_title(); ?> | <?php bloginfo('name');?></a></li>
 				<li><?php the_tags('文章标签: ', ', ', ''); ?></li>
 				<li>版权所有: <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>-转载请标明出处</li>
+				<li>欢迎关注微信公众平台(搜索Leez或者扫描以下二维码)：<br><img  src="http://img1.ph.126.net/oBuzg6dgTVufIhUIBCijOw==/6608919203468978410.jpg"></li>
 </div><div class="clr"></div>
 		<?php include('includes/related.php'); ?>
 			<?php endwhile; ?>
