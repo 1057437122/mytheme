@@ -27,7 +27,7 @@
 		<li><a href="http://wee.leepine.com/aboutme">二级域名服务~</a></li>
 		<li><a href="http://wee.leepine.com/aboutme">承接制作毕业画册~</a></li>
 		<li>欢迎关注微信，搜索Leez或者扫描以下：<br>
-		<img width="260px" height="260px"  src="http://ww1.sinaimg.cn/mw690/9f2e29e5tw1ejwor08u9bj20zk0zkwi9.jpg">
+		<img width="260px" height="260px"  src="http://ww3.sinaimg.cn/mw690/9f2e29e5tw1el74zss2zgj2076076wey.jpg">
 		</li>
 
 
